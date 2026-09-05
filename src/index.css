@@ -5,7 +5,9 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
   background-color: #f4f5f7;
   color: #333;
 }
@@ -41,6 +43,12 @@ body {
   justify-content: center;
   align-items: center;
   padding: 2rem;
+}
+
+/* Contendor Login*/
+.login-container {
+  display: flex;
+  gap: 4vw;
 }
 
 /* Card */
